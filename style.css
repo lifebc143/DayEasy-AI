@@ -1249,3 +1249,20 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+/* 讓右側的灰色容器解除內部雙欄限制，改為單欄 */
+.product-visual-stack {
+  grid-template-columns: 1fr !important; /* 讓內部不再切成左右兩半 */
+}
+
+/* 讓白底的卡片元件在它自己的區域內橫向撐滿 100% */
+.product-visual-stack .cloud-terminal-panel {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+}
+
+/* 讓卡片內部的文字文案也跟著延伸 */
+.product-visual-stack .product-copy {
+  width: 100% !important;
+  max-width: none !important;
+}
