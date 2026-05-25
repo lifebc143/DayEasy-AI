@@ -362,10 +362,6 @@ img {
   color: var(--accent-deep);
 }
 
-.social-card-text {
-  align-content: center;
-}
-
 .social-icon-badge {
   display: inline-flex;
   align-items: center;
@@ -383,6 +379,31 @@ img {
   width: 16px;
   height: 16px;
   fill: currentColor;
+}
+
+.social-card-facebook .social-icon-badge {
+  color: #1877f2;
+}
+
+.social-card-ig .social-icon-badge {
+  background: linear-gradient(135deg, #f58529 0%, #feda77 25%, #dd2a7b 58%, #8134af 82%, #515bd4 100%);
+  color: #ffffff;
+}
+
+.social-card-threads .social-icon-badge {
+  color: #111111;
+}
+
+.social-card-youtube .social-icon-badge {
+  color: #ff0000;
+}
+
+.social-card-x .social-icon-badge {
+  color: #111111;
+}
+
+.social-card-linkedin .social-icon-badge {
+  color: #0a66c2;
 }
 
 .wearable-stat-grid {
